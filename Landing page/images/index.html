@@ -1,37 +1,54 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/css/style.css">
-
   <title>Solarium Landingpage</title>
 
-<body>
 <div id="container">
-<ul id="nav_header">
-  <li >How it works</li>
-  <li >Testimonials</li>
-  <li >Pricing</li>
-  <li >Log In</li>
-  <li >Sign Up</li>
-</ul>
-<header id="promo_sale"> <!--'website header page'-->
-<H1 id="WELCOME TO PEPSI POPCORN"></H1>
+ <ul id="nav_header">
+   <li a href="#">How it works</li>
+   <li >Testimonials</li>
+   <li >Pricing</li>
+   <li >Log In</li>
+   <li >Sign Up</li>
+ </ul>
+<div id="promo_head"> <!--'website header page'-->
+<H1 id="pepsipop_header"></H1>
 <h1>WELCOME TO PEPSI POPCORN</h1>
-<p id="para_1">Spend all your money here!</p>
-  <a href="#" <btn id="btn_getstarted">Get Started</a>
-<img src="./images/1.jpeg" alt="first pic" class="image_1">
-</header>
+<p id="para_1">Spend all your money here! This is our latest invention popcorn made from pepsi :) </p>
+ <a btn id="btn_getstarted">Get Started</a>
+</div>
 </head>
 
+<body>
 <div id="main_1">
 <h2 id="main_1_title">HOW IT WORKS</h2>
+<!--'im removing href so that i dont deal with the link line'-->
+<div class="unit_1">
+<img src="../images/2.jpeg" id="unit_1img"/>
+  <h3 id="unit_1header">Register your event</h3>
+  <p id="unit_1para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim 
+    sapien odio, quis luctus nulla finibus quis. Ut non lorem dui.
+    Duis aliquet pharetra nunc.</p>
+</div>
+<div class="unit_2">
+  <img src="../images/3.jpeg" id="unit_2img"/>
+    <h3 id="unit_2header">Connect your Website</h3>
+    <p id="unit_2para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim 
+      sapien odio, quis luctus nulla finibus quis. Ut non lorem dui.
+      Duis aliquet pharetra nunc.</p>
+</div>
 
-<div class="unit_1">content</div>
-<div class="unit_2">content</div>
-<div class="unit_3">content</div>
+<div class="unit_3">
+  <img src="../images/4.jpeg" id="unit_3img"/>
+    <h3 id="unit_3header">Register your event</h3>
+    <p id="unit_3para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim 
+      sapien odio, quis luctus nulla finibus quis. Ut non lorem dui.
+      Duis aliquet pharetra nunc.</p>
+</div>
 </div>
 
 <div id="main_2">
@@ -43,13 +60,15 @@
 
 <div id="main_3">
   <h2 id="main_3_title">REGISTER NOW</h2>
-  <input type="text" <pl>Please enter your name</pl>>
-  <input type="text" <pl>Please enter your Email</pl>>
-  <a href="#" class="btn_submit">SUBMIT</a>
+  <div><input type="text" <pl>Name</pl>></div>
+  <div><input type="text" <pl>Email</pl>></div>
+  <a class="btn_submit">SUBMIT</a>
 </div>
+</body>
 
 <footer>
-<div id="foot_container">
+<div class="foot_container">
+<div id="f1list">
   <ul>
     <li>About</li>
     <li>Support</li>
@@ -57,32 +76,39 @@
     <li>Multi-user Admin</li>
     <li>Multipayment Option </li>
   </ul>
+</div>
 
-  <ul>
+  <div id="f2list">
+    <ul> 
     <li>About</li>
     <li>Support</li>
     <li>Helpline</li>
     <li>Pricing </li>
     <li>Platform</li>
   </ul>
+  </div>
 
-  <ul>
+  <div id="f3list">  
+    <ul>
     <li>About</li>
     <li>Demo</li>
     <li>Documentation</li>
     <li>Events</li>
     <li>How To</li>
   </ul>
+  </div>
 
+<div id="f4list">
   <ul>
-    <li>Company</li>
-    <li>About</li>
-    <li>Customer</li>
-    <li>Support Us</li>
-    <li>platform</li>
-  </ul>
+  <li>Company</li>
+  <li>About</li>
+  <li>Customer</li>
+  <li>Support Us</li>
+  <li>platform</li>
+</ul>
 </div>
+  
+ <div id="lastpart"></div>
 </footer>
 </div>
-</body>
 </html>

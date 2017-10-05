@@ -128,6 +128,16 @@ head#container{
   overflow: hidden;
 }
 
+.cimg1{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  box-shadow: 0px 0px 10px 0px;
+  margin-top:230px;
+  margin-left:150px;
+
+}
+
 .box1{
   width: 500px;
   height:240px;
@@ -139,6 +149,28 @@ head#container{
   margin-top: 195px;
   margin-bottom: 0px;
   box-shadow: 0px 0px 10px 0px;
+  font-family:Helvetica;
+
+}
+
+#box1para{
+  margin-left:50px;
+  font-size:18pt;
+  color:grey;
+}
+
+#name1{
+  margin-left:50px;
+  font-size:22pt;
+  color: #41B6F8;
+
+
+}
+
+#company1{
+  margin-left:50px;
+  font-size:14pt;
+  color: grey;
 
 }
 
@@ -153,6 +185,26 @@ head#container{
   margin-top: 195px;
   margin-bottom:74px;
   box-shadow: 0px 0px 10px 0px;
+  font-family:Helvetica;
+
+}
+
+#box2para{
+  margin-left:50px;
+  font-size:18pt;
+  color:grey;
+}
+
+#name2{
+  margin-left:50px;
+  font-size:22pt;
+  color: #41B6F8;
+}
+
+#company2{
+  margin-left:50px;
+  font-size:14pt;
+  color: grey;
 
 }
 
@@ -165,6 +217,29 @@ head#container{
   margin-right: 22px;
   margin-left:130px;
   box-shadow: 0px 0px 10px 0px;
+  font-family:Helvetica;
+}
+
+
+#box3para{
+  margin-left:50px;
+  font-size:18pt;
+  color:grey;
+}
+
+#name3{
+  margin-left:50px;
+  font-size:22pt;
+  color: #41B6F8;
+
+
+}
+
+#company3{
+  margin-left:50px;
+  font-size:14pt;
+  color: grey;
+
 }
 
 .box4{
@@ -176,6 +251,29 @@ head#container{
   margin-right: 22px;
   margin-left:130px;
   box-shadow: 0px 0px 10px 0px;
+  font-family:Helvetica;
+
+}
+
+
+#box4para{
+  margin-left:50px;
+  font-size:18pt;
+  color:grey;
+}
+
+#name4{
+  margin-left:50px;
+  font-size:22pt;
+  color: #41B6F8;
+
+
+}
+
+#company4{
+  margin-left:50px;
+  font-size:14pt;
+  color: grey;
 
 }
 
@@ -234,7 +332,7 @@ input[type=text]{
   float:right;
   margin-top:115px;
   margin-bottom:137px;
-  display: inline-box;
+  display:inline-box;
   list-style:none;
   margin-right:80px;
 

@@ -365,24 +365,26 @@ input[type=text]{
 }
 
 .foot_container{
-  position:absolute;
+  position:static;
   height: auto;
-  width:auto;
+  width:990px;
   background-color: #fff;
   color: #41b6f8;
   font-size: 18pt;
+  margin-left:auto;
+  margin-right:auto;
 
 }
 
 .foot_container > div {
   text-align: center;
-  float:right;
+  float:left;
   margin-top:115px;
   margin-bottom:137px;
   display: inline-box;
   list-style:none;
-  margin-right:auto;
-  margin-left:80px;
+  margin-right:25px;
+
 
 }
 
@@ -394,7 +396,8 @@ input[type=text]{
 }
 
 lastpart{
-  width: 1441px;
+  width:auto;
   height:70px;
   background-color:#009EF6;
+  float:left;
 }
